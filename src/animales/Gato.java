@@ -48,9 +48,16 @@ public class Gato extends Animal {
         else System.out.println("come otra cosa");
     }
     
-    public void peleaCon(Gato contirncante){
+    public void peleaCon(Gato contrincante){
         
         if(this.getSexo()==sexo.HEMBRA) System.out.println("no me gusta pelear");
         else System.out.println("ratatatataa tatatata");
+    }
+    
+    @Override
+    public String toString(){
+        
+        super.toString();
+        return "este es el tostring de gato que miauuuuu";
     }
 }

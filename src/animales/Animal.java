@@ -25,7 +25,8 @@ public class Animal {
         return sexo;
     }
     
-    public String tosString(){
+    @Override
+    public String toString(){
         
         return "sexo:"+ this.sexo+ "\n";
     }

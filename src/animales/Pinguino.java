@@ -9,6 +9,27 @@ package animales;
  *
  * @author Semipresencial 1º
  */
-public class Pinguino {
+public class Pinguino extends Ave {
+    
+    String patas;
+    String picos;
+    int dientes;
+    
+    public Pinguino(Sexo s, String p, String pi){
+        
+        super(s);
+        patas=p;
+        picos=pi;
+        dientes=7;
+        
+    }
+    
+    @Override
+    public String toString(){
+        
+         return super.toString();
+        
+        
+    }
     
 }

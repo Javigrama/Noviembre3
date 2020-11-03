@@ -26,9 +26,11 @@ public class Ave extends Animal {
         System.out.println("vuela");
     }
     
+
     @Override
     public String toString(){
       
+        super.toString();
         return "vuela mas";
     }
 }
